@@ -1,7 +1,7 @@
 ---
 - name: Patch Linux system
   remote_user: ansible
-  hosts: all
+  hosts: localhost
   become: true
   ignore_errors: yes
 
